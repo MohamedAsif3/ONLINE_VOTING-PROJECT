@@ -1,0 +1,29 @@
+project overview:
+		Here’s a simplified implementation of an Online Voting System using Java with Spring Boot and Hibernate. This application allows users to register, create votes, and cast their votes.
+
+
+project structure:
+
+online-voting-system
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── voting
+│   │   │               ├── OnlineVotingApplication.java
+│   │   │               ├── controller
+│   │   │               │   └── VotingController.java
+│   │   │               ├── model
+│   │   │               │   ├── User.java
+│   │   │               │   └── Vote.java
+│   │   │               ├── repository
+│   │   │               │   ├── UserRepository.java
+│   │   │               │   └── VoteRepository.java
+│   │   │               └── service
+│   │   │                   ├── UserService.java
+│   │   │                   └── VoteService.java
+│   │   └── resources
+│   │       ├── application.properties
+└── pom.xml
